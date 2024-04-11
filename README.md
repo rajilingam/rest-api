@@ -17,3 +17,8 @@ Create README file in the repository
 repo.create_file('README.md', 'Initial commit', readme_content, branch=repo_default_branch)
 
 print("Repository created successfully.")
+
+Make sure you have installed PyGithub library (`pip install PyGithub`) and replace `'your_access_token'`, `'your_repo_name'`, and `'Your repository description'` with your actual GitHub access token, repository name, and description, respectively.
+
+This code will create a new GitHub repository with the specified name and description, initializes it with a README file containing some basic content, and uses the MIT License template. You can customize the README content according to your needs.
+

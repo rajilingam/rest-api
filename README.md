@@ -5,9 +5,13 @@ Please read CONTRIBUTING.md for details on our code of conduct, and the process 
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 """.format(repo_name=repo_name, repo_description=repo_description)
-
+#Heading 1
 Initialize PyGithub client
 g = Github(ACCESS_TOKEN)
+
+*one star on each side*
+_This text is also italic_
+Use three asterisks (or three underscores) to wrap your word or phrase.
 
 Create a new repository
 user = g.get_user()
